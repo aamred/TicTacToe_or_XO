@@ -58,8 +58,7 @@ public class TicTacToe {
         PrintField();
     }
 
-    public static void GetEnterFromPlayer()
-    {
+    public static void GetEnterFromPlayer() {
         boolean isEnter =false;
         do {
             System.out.println("Dear Player "+activePlayer+" enter number of line , space and number of colum please");
